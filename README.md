@@ -1,38 +1,65 @@
-# 2048
-A small clone of [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), based on [Saming's 2048](http://saming.fr/p/2048/) (also a clone). 2048 was indirectly inspired by [Threes](https://asherv.com/threes/).
+# 🎮 THE ULTIMATE 2048 ENGINE 🎮
 
-Made just for fun. [Play it here!](http://gabrielecirulli.github.io/2048/)
+Your Enhanced Journey in the World of Puzzle Gaming
 
-The official app can also be found on the [Play Store](https://play.google.com/store/apps/details?id=com.gabrielecirulli.app2048) and [App Store!](https://itunes.apple.com/us/app/2048-by-gabriele-cirulli/id868076805)
+———9§———— *.* ◇ *.*. ————9§————
 
-### Contributions
+## 📖 Overview
 
-[Anna Harren](https://github.com/iirelu/) and [sigod](https://github.com/sigod) are maintainers for this repository.
+**The Ultimate 2048 Engine** is an enhanced version of the classic 2048 puzzle game that takes your gaming experience to the next level. Built with advanced algorithms and an intuitive interface, this game offers both challenge and strategic assistance for players of all skill levels.
 
-Other notable contributors:
+The game features an **expanded 5x5 board** for more complex gameplay and introduces a **Suggest Button** - an intelligent move recommendation system that analyzes your board state and provides optimal move suggestions.
 
- - [TimPetricola](https://github.com/TimPetricola) added best score storage
- - [chrisprice](https://github.com/chrisprice) added custom code for swipe handling on mobile
- - [marcingajda](https://github.com/marcingajda) made swipes work on Windows Phone
- - [mgarciaisaia](https://github.com/mgarciaisaia) added support for Android 2.3
+This project demonstrates the intersection of classic puzzle gaming with modern algorithmic optimization, creating an educational and entertaining experience.
 
-Many thanks to [rayhaanj](https://github.com/rayhaanj), [Mechazawa](https://github.com/Mechazawa), [grant](https://github.com/grant), [remram44](https://github.com/remram44) and [ghoullier](https://github.com/ghoullier) for the many other good contributions.
+---
 
-### Screenshot
+## 🎯 Game Features
 
-<p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/1175750/8614312/280e5dc2-26f1-11e5-9f1f-5891c3ca8b26.png" alt="Screenshot"/>
-</p>
+### Enhanced Board Size
+- **5x5 Grid**: More space means more strategy and longer, more complex games
+- Larger board allows for higher scores and more challenging gameplay
+- Classic 2048 mechanics with expanded possibilities
 
-That screenshot is fake, by the way. I never reached 2048 :smile:
+### Intelligent Suggest System
+- **Smart Algorithm**: Scans the entire board to determine optimal moves
+- **Tile Analysis**: Identifies the highest-value tiles and calculates merge opportunities
+- **Strategic Assistance**: Helps players learn optimal strategies and improve their gameplay
+- Real-time move suggestions based on current board state
 
-## Contributing
-Changes and improvements are more than welcome! Feel free to fork and open a pull request. Please make your changes in a specific branch and request to pull into `master`! If you can, please make sure the game fully works before sending the PR, as that will help speed up the process.
+---
 
-You can find the same information in the [contributing guide.](https://github.com/gabrielecirulli/2048/blob/master/CONTRIBUTING.md)
+## 🔧 Tech Stack
 
-## License
-2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
+- **Language**: JavaScript (ES6+)
+- **GUI**: HTML5 & CSS3
+- **Game Logic**: Custom algorithms for move optimization
+- **Storage**: LocalStorage for score persistence
+- **Version Control**: GitHub
 
-## Donations
-I made this in my spare time, and it's hosted on GitHub (which means I don't have any hosting costs), but if you enjoyed the game and feel like buying me coffee, you can donate at my BTC address: `1Ec6onfsQmoP9kkL3zkpB6c5sA4PVcXU2i`. Thank you very much!
+---
+### How to Play
+
+1. **Movement**: Use arrow keys (↑ ↓ ← →) to slide tiles
+2. **Merging**: When two tiles with the same number touch, they merge into one
+3. **Suggest Button**: Click the suggest button to get some recommendations
+4. **Objective**: Reach the 2048 tile to win, or keep playing to achieve higher scores!
+
+---
+
+## 🧠 The Suggest Algorithm
+
+The Suggest Button implements analysis system:
+
+1. **Board State Analysis**: Scans all tiles and their positions
+2. **Highest-Value Detection**: Identifies the most valuable tiles on the board
+3. **Merge Opportunity Calculation**: Determines which moves can create successful merges
+4. **Optimal Move Selection**: Recommends the move with the highest strategic value
+
+---
+
+## 👥 Contributors
+
+🎓 **Mark Asher G. Abesia** - BSCS 2
+
+———9§———— *.* 🎮 *.*. ————9§————
