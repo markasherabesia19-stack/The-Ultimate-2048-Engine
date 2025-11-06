@@ -12,6 +12,7 @@ The game features an **expanded 5x5 board** for more complex gameplay and introd
 
 This project demonstrates the intersection of classic puzzle gaming with modern algorithmic optimization, creating an educational and entertaining experience.
 
+This project was developed as a requirement for **CMSC 122: Data Structures and Algorithms I** at UP Tacloban.
 ---
 
 ## 🎯 Game Features
